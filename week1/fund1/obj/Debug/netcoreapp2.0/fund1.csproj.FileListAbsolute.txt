@@ -1,0 +1,10 @@
+D:\dojo\csharp\week1\fund1\bin\Debug\netcoreapp2.0\fund1.deps.json
+D:\dojo\csharp\week1\fund1\bin\Debug\netcoreapp2.0\fund1.runtimeconfig.json
+D:\dojo\csharp\week1\fund1\bin\Debug\netcoreapp2.0\fund1.runtimeconfig.dev.json
+D:\dojo\csharp\week1\fund1\bin\Debug\netcoreapp2.0\fund1.dll
+D:\dojo\csharp\week1\fund1\bin\Debug\netcoreapp2.0\fund1.pdb
+D:\dojo\csharp\week1\fund1\obj\Debug\netcoreapp2.0\fund1.csproj.CoreCompileInputs.cache
+D:\dojo\csharp\week1\fund1\obj\Debug\netcoreapp2.0\fund1.AssemblyInfoInputs.cache
+D:\dojo\csharp\week1\fund1\obj\Debug\netcoreapp2.0\fund1.AssemblyInfo.cs
+D:\dojo\csharp\week1\fund1\obj\Debug\netcoreapp2.0\fund1.dll
+D:\dojo\csharp\week1\fund1\obj\Debug\netcoreapp2.0\fund1.pdb
