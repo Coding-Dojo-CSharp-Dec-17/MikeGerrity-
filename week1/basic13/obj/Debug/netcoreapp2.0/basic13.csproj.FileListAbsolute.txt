@@ -1,0 +1,10 @@
+D:\dojo\csharp\week1\basic13\obj\Debug\netcoreapp2.0\basic13.csproj.CoreCompileInputs.cache
+D:\dojo\csharp\week1\basic13\obj\Debug\netcoreapp2.0\basic13.AssemblyInfoInputs.cache
+D:\dojo\csharp\week1\basic13\obj\Debug\netcoreapp2.0\basic13.AssemblyInfo.cs
+D:\dojo\csharp\week1\basic13\bin\Debug\netcoreapp2.0\basic13.deps.json
+D:\dojo\csharp\week1\basic13\bin\Debug\netcoreapp2.0\basic13.runtimeconfig.json
+D:\dojo\csharp\week1\basic13\bin\Debug\netcoreapp2.0\basic13.runtimeconfig.dev.json
+D:\dojo\csharp\week1\basic13\bin\Debug\netcoreapp2.0\basic13.dll
+D:\dojo\csharp\week1\basic13\bin\Debug\netcoreapp2.0\basic13.pdb
+D:\dojo\csharp\week1\basic13\obj\Debug\netcoreapp2.0\basic13.dll
+D:\dojo\csharp\week1\basic13\obj\Debug\netcoreapp2.0\basic13.pdb
