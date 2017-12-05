@@ -1,0 +1,10 @@
+D:\dojo\csharp\week1\boxing\bin\Debug\netcoreapp2.0\boxing.deps.json
+D:\dojo\csharp\week1\boxing\bin\Debug\netcoreapp2.0\boxing.runtimeconfig.json
+D:\dojo\csharp\week1\boxing\bin\Debug\netcoreapp2.0\boxing.runtimeconfig.dev.json
+D:\dojo\csharp\week1\boxing\bin\Debug\netcoreapp2.0\boxing.dll
+D:\dojo\csharp\week1\boxing\bin\Debug\netcoreapp2.0\boxing.pdb
+D:\dojo\csharp\week1\boxing\obj\Debug\netcoreapp2.0\boxing.csproj.CoreCompileInputs.cache
+D:\dojo\csharp\week1\boxing\obj\Debug\netcoreapp2.0\boxing.AssemblyInfoInputs.cache
+D:\dojo\csharp\week1\boxing\obj\Debug\netcoreapp2.0\boxing.AssemblyInfo.cs
+D:\dojo\csharp\week1\boxing\obj\Debug\netcoreapp2.0\boxing.dll
+D:\dojo\csharp\week1\boxing\obj\Debug\netcoreapp2.0\boxing.pdb
