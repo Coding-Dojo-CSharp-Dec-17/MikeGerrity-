@@ -1,15 +1,19 @@
 ﻿using System;
 using System.Collections.Generic; 
-namespace deckofcards
+
+namespace card
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Deck mydeck = new Deck(); 
-            mydeck.Shuffle();
-            Player player1 = new Player("Doyle Brunson"); 
-            player1.Draw(mydeck.Deal()); 
+            Deck myDeck = new Deck();
+            Console.WriteLine(myDeck);
+            Player player1 = new Player("Mike");
+            myDeck.Shuffle();
+            Console.WriteLine($"Hello {player1.name}, Let's Play some cards!"); 
+            player1.DrawFrom(myDeck); 
+        
         }
     }
 }

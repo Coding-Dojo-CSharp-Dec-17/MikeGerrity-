@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dojo\\csharp\\week1\\cards\\cards.csproj",
+      "projectUniqueName": "d:\\dojo\\csharp\\week1\\cards\\cards.csproj",
       "projectName": "cards",
-      "projectPath": "D:\\dojo\\csharp\\week1\\cards\\cards.csproj",
+      "projectPath": "d:\\dojo\\csharp\\week1\\cards\\cards.csproj",
       "packagesPath": "C:\\Users\\mikeg\\.nuget\\packages\\",
-      "outputPath": "D:\\dojo\\csharp\\week1\\cards\\obj\\",
+      "outputPath": "d:\\dojo\\csharp\\week1\\cards\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

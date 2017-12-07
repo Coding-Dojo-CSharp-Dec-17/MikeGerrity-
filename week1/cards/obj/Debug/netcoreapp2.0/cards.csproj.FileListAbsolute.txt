@@ -1,0 +1,10 @@
+D:\dojo\csharp\week1\cards\obj\Debug\netcoreapp2.0\cards.csproj.CoreCompileInputs.cache
+D:\dojo\csharp\week1\cards\obj\Debug\netcoreapp2.0\cards.AssemblyInfoInputs.cache
+D:\dojo\csharp\week1\cards\obj\Debug\netcoreapp2.0\cards.AssemblyInfo.cs
+D:\dojo\csharp\week1\cards\bin\Debug\netcoreapp2.0\cards.deps.json
+D:\dojo\csharp\week1\cards\bin\Debug\netcoreapp2.0\cards.runtimeconfig.json
+D:\dojo\csharp\week1\cards\bin\Debug\netcoreapp2.0\cards.runtimeconfig.dev.json
+D:\dojo\csharp\week1\cards\bin\Debug\netcoreapp2.0\cards.dll
+D:\dojo\csharp\week1\cards\bin\Debug\netcoreapp2.0\cards.pdb
+D:\dojo\csharp\week1\cards\obj\Debug\netcoreapp2.0\cards.dll
+D:\dojo\csharp\week1\cards\obj\Debug\netcoreapp2.0\cards.pdb

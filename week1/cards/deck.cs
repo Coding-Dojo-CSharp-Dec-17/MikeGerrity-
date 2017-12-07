@@ -1,49 +1,57 @@
 using System; 
 using System.Collections.Generic; 
 
-namespace deckofcards
+namespace card
 {
-    public class Deck
+    public class Deck 
     {
-        private static Random rand = new Random(); 
-        public List<Card> cards;
-        public void Shuffle()
+        private List<Card> cards;
+
+        public Deck() 
         {
-            
-            for(int i= 0; i < cards.Count/2; i++)
-            {
-                Card temp = cards[i]; 
-                int randomIdx = rand.Next(i, cards.Count); 
-                cards[i] = cards[randomIdx]; 
-                cards[randomIdx] = temp; 
+            Reset();
+        }
+
+        public Card Deal() 
+        {
+            if(cards.Count > 0) {
+                Card temp = cards[0];
+                cards.RemoveAt(0);
+                return temp;
             }
+            return null;
         }
 
-        public Deck(); 
+        public Deck Shuffle() 
         {
-            InitializeDeck();
-        } 
-        public void Deck Reset()
-        {
-            InitializeDeck();
-        }
-        public Card Deal()
-        {
-            Card cardPulled = cards[0];
-            cards.RemoveAt(0); 
-            return cardPulled;  
-
-        }
-        private void InitializeDeck()
-        {
-            cards = new List<Card>(); 
-            for(int suitnum = 0; suitnum < 4; suitnum++)
+            Random rand = new Random();
+            for(int i = 0; i < cards.Count/2; i++) 
             {
-                for(int cardnum = 0; cardnum < 13; cardnum++)
-                {
-                    cards.Add(new Card(suitnum, cardnum)); 
+                int randIdx = rand.Next(i, cards.Count);
+                Card temp = cards[randIdx];
+                cards[randIdx] = cards[i];
+                cards[i] = temp;
+            }
+            return this;
+        }
+
+        public Deck Reset() {
+            cards = new List<Card>();
+            string[] suits = new string[4] {"Hearts","Clubs","Spades","Diamonds"};
+            foreach(string suit in suits) {
+                for(int val = 1; val <= 13; val++) {
+                    cards.Add(new Card(suit, val));
                 }
             }
+            return this;
+        }
+
+        public override string ToString() {
+            string info = "";
+            foreach(Card card in cards) {
+                info += card + "\n";
+            }
+            return info;
         }
     }
 }

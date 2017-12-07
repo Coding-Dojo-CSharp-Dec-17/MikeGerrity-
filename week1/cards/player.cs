@@ -1,20 +1,25 @@
 using System; 
 using System.Collections.Generic; 
 
-namespace deckofcards
+namespace card
 {
-    public class Player
-    {
-        public string name; 
-        public List<Card> hand; 
-        public Player(string playerName)
-        {
-            name = playerName; 
-            hand = new List<Card>(); 
+    public class Player {
+        public string name;
+        private List<Card> hand;
+
+        public Player(string n) {
+            hand = new List<Card>();
+            name = n;
         }
-        public void Draw(Card card)
-        {
-            Console.WriteLine($"{name} draws a {card.")
+
+        public void DrawFrom(Deck currentDeck) {
+            hand.Add(currentDeck.Deal());
+        }
+        
+        public Card Discard(int idx) {
+            Card temp = hand[idx];
+            hand.RemoveAt(idx);
+            return temp;
         }
     }
 }
